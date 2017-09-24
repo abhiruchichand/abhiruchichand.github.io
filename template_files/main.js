@@ -40,4 +40,12 @@ $(window).load(function() {
         });
         e.preventDefault();
     });
+
+    $('[data-fancybox]').fancybox({
+        youtube : {
+            controls: 0,
+            showinfo: 0
+        },
+    });
+
 })(jQuery);
